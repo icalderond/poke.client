@@ -8,8 +8,7 @@ namespace Poke.Client
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new PokeDashPage());
+            MainPage = new NavigationPage(new PokeDashView());
         }
 
         protected override void OnStart()

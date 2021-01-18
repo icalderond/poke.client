@@ -6,7 +6,7 @@ using Poke.Client.Services;
 
 namespace Poke.Client.ViewModels
 {
-    public class PokeDashViewModel : NotificationEnabledObject
+    public class PokeDashViewModel : ViewModelBase
     {
         public PokeDashViewModel()
         {

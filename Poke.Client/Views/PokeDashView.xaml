@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<ContentPage x:Class="Poke.Client.Views.PokeDashPage"
+<ContentPage x:Class="Poke.Client.Views.PokeDashView"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Title="PokeApi">
+             xmlns:vm="clr-namespace:Poke.Client.Bootstrap"
+             Title="PokeApi"
+             vm:ViewModelLocator.AutoWireViewModel="True">
     <ContentPage.Content>
         <Grid>
             <CarouselView HeightRequest="310"

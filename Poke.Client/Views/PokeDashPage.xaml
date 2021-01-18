@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="Poke.Client.Views.PokeDashPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="PokeApi">
+    <ContentPage.Content>
+        <Grid>
+            <CarouselView HeightRequest="310"
+                          HorizontalOptions="Center"
+                          ItemTemplate="{StaticResource PokeTemplate}"
+                          ItemsSource="{Binding PokemonList}"
+                          PeekAreaInsets="80"
+                          VerticalOptions="Center">
+                <CarouselView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="20" Orientation="Horizontal" />
+                </CarouselView.ItemsLayout>
+            </CarouselView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

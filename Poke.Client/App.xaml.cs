@@ -1,6 +1,5 @@
-﻿using System;
+﻿using Poke.Client.Views;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Poke.Client
 {
@@ -10,7 +9,7 @@ namespace Poke.Client
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new PokeDashPage());
         }
 
         protected override void OnStart()

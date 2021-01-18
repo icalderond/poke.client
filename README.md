@@ -1,4 +1,6 @@
 # Poke Client
+![Alt Text](Screenshoots/poke-client-video.gif)
+
 
 ## Description
 This application is builded with Xamarin Forms using a architecture to organize differents layers. The basic intention to develop this application is apply architecture topics.

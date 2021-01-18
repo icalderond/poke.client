@@ -17,6 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poke.Client.Models", "Poke.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poke.Client.NUnit", "Poke.Client.NUnit\Poke.Client.NUnit.csproj", "{2FDF09FC-13FD-4A92-8075-CFAC5F0B333D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{023394B0-FE56-4EEC-807F-F0D433CE8D82}"
+	ProjectSection(SolutionItems) = preProject
+		poke-client-video.gif = poke-client-video.gif
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
